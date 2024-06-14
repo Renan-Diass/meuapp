@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.about-container {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title {
+    font-family: 'Lilita One', sans-serif;
+    align-items: top;
+    justify-content: top;
+    text-align: top;
+    font-size: 5.5rem;
+    color: rgb(3, 87, 10);
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.about-description {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    color: #000000;
+    max-width: 700px;
+    padding: 5%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}

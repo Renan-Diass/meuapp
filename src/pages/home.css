@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.home-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  align-items: top;
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.home-description {
+  font-size: 2.5rem;
+  color: rgb(72, 65, 65);
+  max-width: 900px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.793);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 21, 0.24);
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+
+}
+
+.login-container button {
+  padding: 10px 60px;
+  border-radius: 50px;
+  background-color: rgba(0, 255, 21, 0.24);
+}
+
+.login-title {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+.btn-primary {
+  background-color: #8c41ee;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-size-adjust: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-description {
+  font-size: 20px;
+  color: #665;
+  max-width: 600px;
+  margin-top: 1px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.artist-image {
+  width: 60%;
+  height: 60%;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.audio {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  justify-content: center;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
